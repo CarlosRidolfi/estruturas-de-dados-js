@@ -57,13 +57,3 @@ class Stack {
         return objString;
     }
 }
-
-const stack = new Stack();
-stack.push(5);
-stack.push(8);
-
-console.log(stack);
-
-console.log(stack.size());
-
-console.log(stack.pop());
